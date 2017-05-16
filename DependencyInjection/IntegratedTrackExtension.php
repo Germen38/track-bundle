@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Integrated\Bundle\TrackBundle\DependencyInjection;
+namespace Germen38\Bundle\TrackBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 
@@ -40,5 +40,11 @@ class IntegratedTrackExtension extends Extension implements PrependExtensionInte
         $loader->load('routing.xml');
 
     }
+
+    public function prepend(ContainerBuilder $container)
+    {
+        // TODO: Implement prepend() method.
+    }
+
 
 }

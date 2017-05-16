@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Integrated\Bundle\TrackBundle;
+namespace Germen38\Bundle\TrackBundle;
 
-use Integrated\Bundle\TrackBundle\DependencyInjection\IntegratedTrackExtension;
+use Germen38\Bundle\TrackBundle\DependencyInjection\IntegratedTrackExtension;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\EventDispatcher\DependencyInjection\RegisterListenersPass;

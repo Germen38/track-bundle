@@ -6,9 +6,9 @@
  * Time: 13:13
  */
 
-namespace Integrated\Bundle\TrackBundle\Controller;
+namespace Germen38\Bundle\TrackBundle\Controller;
 
-use Integrated\Bundle\TrackBundle\Document\Entity\Track;
+use Germen38\Bundle\TrackBundle\Document\Entity\Track;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Cookie;
@@ -43,7 +43,7 @@ class TrackController extends Controller
 
 
 
-        $track2 = $documentManager->getRepository('AppBundle:Entity\Track')->findAll();
+        $track2 = $documentManager->getRepository('track-bundle:..\Document\Entity\Track')->findAll();
         dump($track2);
 
 

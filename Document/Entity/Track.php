@@ -6,11 +6,11 @@
  * Time: 09:41
  */
 
-namespace Integrated\Bundle\TrackBundle\Document\Entity;
+namespace Germen38\Bundle\TrackBundle\Document\Entity;
 
 
 use Doctrine\ODM\MongoDB\Mapping\Annotations as ODM;
-use AppBundle\Controller\TrackController;
+use Germen38\Bundle\TrackBundle\Controller\TrackController;
 use Integrated\Common\Form\Mapping\Annotations as Type;
 use Integrated\Bundle\ContentBundle\Document\Content\Relation\Relation;
 
