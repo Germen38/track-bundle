@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>{% block title %}IntegratedTrack{% endblock %}</title>
+    <script src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
+</head>
+<body>
+<script src="{{ asset('js/sessions2.js') }}"></script>
+
+<script>
+/*
+    var dataObject = JSON.stringify(
+        {
+            'visits' : (window.session.original_session.visits),
+            'url' : (window.session.original_session.url),
+            'referrer' :(window.session.original_session.referrer),
+            'engine' :(window.session.current_session.search.engine),
+            'query' :(window.session.current_session.search.query),
+            //'search' :(window.session.current_session.search),
+            'cityName' :(window.session.location.cityName),
+            'countryCode' :(window.session.location.countryCode),
+            'countryName' :(window.session.location.countryName),
+            'regionName' :(window.session.location.regionName),
+            'zipCode' :(window.session.location.zipCode),
+            'ipAddress' :(window.session.location.ipAddress),
+            'timeZone' :(window.session.location.timeZone),
+            'is_mobile' :(window.session.device.is_mobile),
+            'is_phone' :(window.session.device.is_phone),
+            'is_tablet' :(window.session.device.is_tablet),
+            'height' :(window.session.device.screen.height),
+            'width' :(window.session.device.screen.width),
+            'browser' :(window.session.browser.browser),
+            'version' :(window.session.browser.version),
+            'os' :(window.session.browser.os),
+            'flash' :(window.session.plugins.flash),
+            'java' :(window.session.plugins.java),
+            'quicktime' :(window.session.plugins.quicktime),
+            'silverlight' :(window.session.plugins.silverlight)
+        });
+
+
+    // try to insert the object to the controller
+    $.ajax({
+        url: '{{ path('app_track_demand') }}',
+        type: 'POST',
+        contentType: 'application/json',
+        //data: JSON.stringify(window.session.original_session.visits),
+        data: dataObject
+
+    });
+*/
+</script>
+</body>
+</html>
+
